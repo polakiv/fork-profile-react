@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&amp;display=swap');
+html * {
+  text-shadow: 0 1px 0 #FFF;
+}
+
+.app { 
+} 
+.app-wrapper { 
+  width:100%;
+  margin:auto; 
+  font-size: 16px;
+  font-family: 'El Messiri', sans-serif;
+  line-height: 1.666em;
+  font-weight: 400;
+  color: #766966;
+  text-shadow: 0 1px 0 #FFF;
+  background-image: url(https://wikirip.site/css/top_bg.jpg);
+}
+.header { 
+ 
+}
+h3.vivod {
+  margin-top: 24px;
+}
+.app-wrapper-content {
+  padding-bottom: 99px;
+}
+a {
+  color: #592131;
+  line-height: 18px; 
+  font-size: 16px; 
+  text-decoration: none;
+  font-family: 'El Messiri', sans-serif;
+} 
+.header img {
+	/*width:300px;*/
+}
+.contein_logo_text {
+  width: 70%;
+  /* float: left; */
+  display: inline-block;
+}
+
+.preload{
+  z-index: 999;
+  position: absolute;
+  left: 49%;
+}
+.logo {
+  float: none;
+  text-align: left;
+  margin: 3px auto 25px auto;
+  max-width: 344px;
+}
+img.logo_main {
+  max-height: 100px;
+  width: auto;
+}
+.contein_logo_text {
+  width: 70%;
+  margin-top: 5px;
+}
+.contein_logo_text {
+  display: inline-block;
+}
+.logo .logo_text {
+  display: inline-block;
+  font-size: 3.333em;
+  margin-left: 0.15em;
+  vertical-align: bottom;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: Cinzel, serif;
+  text-shadow: 1px 2px 4px #fff;
+}
+
+.logo .logo_text {
+  color: #592131;
+}
+span.logo_slogan {
+  display: block;
+  margin-top: 6px;
+  margin-left: 17px;
+  text-shadow: 0 1px 0 #FFF;
+  width: 225px;
+  font-size: 12px;
+  font-style: italic; 
+}
+span.logo_slogan h1 { 
+  font-size: 13px;
+  color: #a5978b;
+  text-decoration: none;
+  border: 0;
+  font-weight: 400;
+}
+.nav{ 
+ 
+}
+.content{
+	grid-area: c;
+	 
+}
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header { 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #766966;
+}
+
+.App-link {
+  color: #766966;
+}
+.header, .logo {
+  width: 100%;;
+}
+.logo {
+  float: none;
+    text-align: left;
+    margin: 3px auto 25px auto;
+    max-width: 344px;
+}
+#rootMain{ 
+  margin-bottom: 16px;
+}
+button {
+  -webkit-appearance: media-slider;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  cursor: pointer !important; 
+  letter-spacing: normal;
+}
+.MuiFab-root {
+  color: red !important;
+}
+.MuiFab-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26)  !important;
+}
+.logo_img {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0.6em;
+}
+img.logo_main {
+  max-height: 100px;
+  width: auto;
+}
+.header img {
+  width: 20px;
+}
+.top {
+  width: 100%;
+  float: left;
+  padding-bottom: 38px;
+} 
+.toplinks {
+  margin: 0 14px 15px 6px;
+  width: 95%;
+}
+.top * { 
+  margin: 0;
+  text-align: center; 
+  line-height: 25px;
+}
+.listinline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.toplinks li, .toplinks a {
+  color: #888;
+  text-shadow: 0 1px 0 #FFF;
+  text-decoration: none;
+  line-height: 23px;
+}
+ul.listinline li {
+  width: auto !important;
+} 
+
+.inline {
+  width: 100%;
+    font-size: 0.866em;
+    color: #a5978b;
+    text-align: center;
+    padding: 15px 0 22px 0;
+}
+.nav { 
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: black;
+}
+.item a {
+  color: black;
+  text-decoration: none;
+}
+.item a.activeLink {
+  color: gold;
+} 
+.myposts {
+  padding: 0 14px 0 19px;
+} 
+input {
+  width: 92%;
+  margin-bottom: 12px;
+  float: left;
+  color: black; 
+  outline: none;
+  resize: none;
+  line-height: 21px; 
+  padding: 8px 0 7px 18px;
+  font-size: 22px;
+  border: 1px solid #a0a0a0;
+  border-radius: 3px;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+color: #a5978b;
+}
+input:focus { 
+  outline: 1px; 
+  border: 2px
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #f5ad2d !important;
+  outline: 1px; 
+ border: 2px solid #f5ad2d !important; 
+}
+input[type="submit"] {
+  background: #f1ad48 !important;
+  color: black; 
+  border-radius: 3px;
+  border: 1px solid #f1940c;
+  margin-bottom: 12px; 
+  font-size: 18px; 
+}
+.bottomnav {
+  width: 100%;
+  float: left;
+  position: fixed;
+  bottom: 0;
+  background: white;
+}
+.bottomnav * {
+  float: left;
+  width: 16%;
+  color: black;
+} 
+.bottomnav nav,.bottomnav a {
+  width: 100%;
+  text-align: center;
+}
+.userPhoto {
+  width: 100px;
+ height: 100px;
+}
+
+.selectedPage {
+ font-weight: bold;
+}
+
+.MuiPaper-root {
+ color: rgba(0, 0, 0, 0.87);
+    background-color: transparent ; 
+ transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+ background: rgb(255, 255, 255, 0.3);
+}
+.flower0{
+  width: 48px;
+}
+.descriptionBlocks {
+    width: 90%;
+    margin: auto;
+}
+
+.descriptionBlocks * {
+    width: 100%;
+    max-width: 100% !important;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+ 
+.Paginator_paginator span span {
+  padding: 0 6px 0 0;
+  border-radius: 0;
+  margin: 0 1px 2px 0px;
+  position: absolute;
+}
+.Paginator_paginator span {
+  padding: 6px 15px 2px 18px;
+  border-radius: 22px;
+  margin: 3px 2px 11px 5px;
+  cursor: pointer;
+  position: relative;
+  right: 6px; 
+}
+.Paginator_paginator {
+  margin: 10px;
+  text-align: center;
+}
+.jkl{
+ width: 100%;
+}
+.MuiButton-containedPrimary {
+ color: #fff;
+ background-color: #f1ad48 !important;
+}
+.MuiButton-containedPrimary:hover {
+ background-color: #ea9b24 !important;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+  margin-top: 8px !important;
+}
+.MuiTypography-gutterBottom > a {
+  text-transform: uppercase;
+}
